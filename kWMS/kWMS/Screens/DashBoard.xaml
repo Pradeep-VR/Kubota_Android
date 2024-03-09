@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="kWMS.Screens.DashBoard" >
+    <ContentPage.Content>
+        <ScrollView Orientation="Vertical">
+
+            <RelativeLayout>
+                <ActivityIndicator IsRunning="True" x:Name="Loader" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Margin="130,150"></ActivityIndicator>
+                <Image Source="kubota.png" WidthRequest="130" HeightRequest="100" Margin="20,0,0,0"></Image>
+
+                <Label Text=" Welcome to "  TextColor="Black" FontSize="15" WidthRequest="100" HeightRequest="22" Margin="20,80,0,0" ></Label>
+
+                <Label Text=" Kubota Dashboard" BackgroundColor="Transparent" TextColor="Black" FontSize="18" WidthRequest="180" HeightRequest="32" Margin="20,100,0,0" ></Label>
+
+                <!--Images-->
+                <ImageButton Source="logout.png" x:Name="logoutbtn" BackgroundColor="Transparent" Clicked="logoutbtn_Clicked" WidthRequest="30" HeightRequest="30" Margin="260,30,0,0"></ImageButton>
+
+                <Image Source="main.png" WidthRequest="60" HeightRequest="60"  Margin="20,150,0,0"></Image>
+
+                <Image Source="notebook.png" WidthRequest="15" HeightRequest="15" Margin="90,150,0,0"></Image>
+
+                <Image Source="mail.png" WidthRequest="15" HeightRequest="15" Margin="90,170,0,0"></Image>
+
+                <Image Source="phone.png" WidthRequest="15" HeightRequest="15" Margin="90,190,0,0"></Image>
+
+                <Image Source="wifi.png" WidthRequest="15" HeightRequest="15" Margin="90,210,0,0"></Image>
+                <!--logged in user names and details -->
+
+                <Label Text="UserName" x:Name="usernametxt" FontSize="12" Margin="110,148,0,0"></Label>
+
+                <Label Text="Email" x:Name="emailtxt" FontSize="12" Margin="110,168,0,0"></Label>
+
+                <Label Text="UserType" x:Name="usertypetxt" FontSize="12" Margin="110,188,0,0"></Label>
+
+                <Label Text="" x:Name="conectionstringip" FontSize="12" Margin="110,208,0,0"></Label>
+
+                <!-- Buttons-->
+                <Button Text="Printer" x:Name="printerbtn" Clicked="printerbtn_Clicked" CornerRadius="10" BorderColor="#188a84"  BackgroundColor="#7fe7e2" TextColor="#188a84" BorderWidth="1" WidthRequest="120" HeightRequest="40" Margin="40,250,0,0"></Button>
+
+                <Button Text="Binning" x:Name="Binningbutton" Clicked="Binningbutton_Clicked" TextColor="#188a84" BackgroundColor="Transparent" CornerRadius="10" BorderColor="#188a84" BorderWidth="1" WidthRequest="120" HeightRequest="40" Margin="170,250,0,0"></Button>
+
+                <Button Text="Dispatch" TextColor="#188a84" x:Name="Dispatchbtn" Clicked="Dispatchbtn_Clicked" BackgroundColor="#7fe7e2"  CornerRadius="10" BorderColor="#188a84" BorderWidth="1" WidthRequest="120" HeightRequest="40" Margin="170,300,0,0"></Button>
+
+                <Button Text="picking" x:Name="Pickingbutton" Clicked="Pickingbutton_Clicked" TextColor="#188a84"  BackgroundColor="Transparent" CornerRadius="10" BorderColor="#188a84" BorderWidth="1" WidthRequest="120" HeightRequest="40" Margin="40,300,0,0"></Button>
+
+                <Button Text="mrp Mobile" TextColor="#188a84" BackgroundColor="Transparent" CornerRadius="10" BorderColor="#188a84" BorderWidth="1" WidthRequest="120" HeightRequest="40" Margin="170,350,0,0"></Button>
+
+                <Button Text="inventory" TextColor="#188a84" BackgroundColor="#7fe7e2"  CornerRadius="10" BorderColor="#188a84" BorderWidth="1" WidthRequest="120" HeightRequest="40" Margin="40,350,0,0"></Button>
+
+                <!--Company-->
+                <Label Text="" x:Name="lblCompanyname" Margin="60,430,0,0" FontSize="12" TextColor="Gray"></Label>
+
+            </RelativeLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

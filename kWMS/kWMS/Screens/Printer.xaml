@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:Picker="clr-namespace:kWMS.Effects"
+             x:Class="kWMS.Screens.Printer">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="LightSeaGreen" Padding="3">
+                <Label Text="PRINTER SETTINGS" HorizontalTextAlignment="Center" Padding="0,0,0,0" TextColor="White" FontSize="18"/>
+            </Frame>
+            <RelativeLayout>
+                
+                <!--WHERE HOUSE LOCATION-->
+                <Image Source="mail.png" WidthRequest="20" HeightRequest="20" BackgroundColor="Transparent" Margin="10,9,0,0"/>
+                <Label Text="" x:Name="wh_loc" FontSize="13" BackgroundColor="Transparent" WidthRequest="100" HeightRequest="25" Margin="35,10,0,0"/>
+                <Label Text="" x:Name="master_wh_loc" IsVisible="false"/>
+                <!--User-->
+                <Image Source="user.png" WidthRequest="20" HeightRequest="20" Margin="150,9,0,0"></Image>
+                <Label Text="" x:Name="username" FontSize="13" BackgroundColor="Transparent" WidthRequest="70" HeightRequest="25" Margin="180,10,0,0"/>
+                <!--Select Printers-->
+                <Label Text="PRINTERS" FontSize="14" TextColor="Black" BackgroundColor="Transparent" WidthRequest="90" HeightRequest="25" Margin="20,80,0,0"/>
+                <Button Text="" BorderColor="LightSeaGreen" BorderWidth="1" WidthRequest="290" HeightRequest="40" Margin="15,100,0,0" BackgroundColor="Transparent"/>
+                <Picker Title="Select Printer Name" x:Name="sltprinter" SelectedIndexChanged="sltprinter_SelectedIndexChanged" FontSize="15" TextColor="Black" BackgroundColor="Transparent" WidthRequest="287" HeightRequest="37" Margin="16.5,101,0,0" HorizontalTextAlignment="Center">
+                    <Picker.Effects>
+                        <Picker:PlainEntry/>
+                    </Picker.Effects>
+                </Picker>
+                <!--Showing printer ip-->
+                <Label Text="IP ADDRESSS" TextColor="Black" FontSize="13" Margin="15,150,0,0"/>
+                <Button BorderColor="LightSeaGreen" BorderWidth="1" BackgroundColor="Transparent" WidthRequest="290" Margin="15,170,0,0"/>
+                <Label Text="" x:Name="ipaddress" TextColor="Black" BackgroundColor="Transparent" WidthRequest="150" HeightRequest="25" Margin="120,182,0,0"/>
+
+                <!--back save btn-->
+                <Button Text="SAVE" x:Name="savebtn" Clicked="savebtn_Clicked" WidthRequest="290" HeightRequest="35" Margin="16.5,230,0,0" BackgroundColor="LightSeaGreen" TextColor="White" FontSize="14"/>
+                <Button Text="TEST CONNECTION" x:Name="test_con_btn" Clicked="test_con_btn_Clicked" WidthRequest="290" HeightRequest="35" Margin="16.5,270,0,0" BackgroundColor="LightSeaGreen" TextColor="White" FontSize="14"/>
+                <!--Hidden Label-->
+            </RelativeLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

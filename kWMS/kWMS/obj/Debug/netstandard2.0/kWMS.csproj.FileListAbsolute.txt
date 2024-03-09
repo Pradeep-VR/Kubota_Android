@@ -1,0 +1,60 @@
+D:\Pradeep\Xamarn-Projects\SSS\Kubota\kWMS\kWMS\bin\Debug\netstandard2.0\kWMS.deps.json
+D:\Pradeep\Xamarn-Projects\SSS\Kubota\kWMS\kWMS\bin\Debug\netstandard2.0\kWMS.dll
+D:\Pradeep\Xamarn-Projects\SSS\Kubota\kWMS\kWMS\bin\Debug\netstandard2.0\ref\kWMS.dll
+D:\Pradeep\Xamarn-Projects\SSS\Kubota\kWMS\kWMS\bin\Debug\netstandard2.0\kWMS.pdb
+D:\Pradeep\Xamarn-Projects\SSS\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\kWMS.csproj.AssemblyReference.cache
+D:\Pradeep\Xamarn-Projects\SSS\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\kWMS.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pradeep\Xamarn-Projects\SSS\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Pradeep\Xamarn-Projects\SSS\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\kWMS.AssemblyInfoInputs.cache
+D:\Pradeep\Xamarn-Projects\SSS\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\kWMS.AssemblyInfo.cs
+D:\Pradeep\Xamarn-Projects\SSS\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\kWMS.csproj.CoreCompileInputs.cache
+D:\Pradeep\Xamarn-Projects\SSS\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Pradeep\Xamarn-Projects\SSS\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\kWMS.dll
+D:\Pradeep\Xamarn-Projects\SSS\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\refint\kWMS.dll
+D:\Pradeep\Xamarn-Projects\SSS\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\kWMS.pdb
+D:\Pradeep\Xamarn-Projects\SSS\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\Screens\Binning.xaml.g.cs
+D:\Pradeep\Xamarn-Projects\SSS\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\Screens\DashBoard.xaml.g.cs
+D:\Pradeep\Xamarn-Projects\SSS\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\Screens\Dispatch.xaml.g.cs
+D:\Pradeep\Xamarn-Projects\SSS\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\Screens\Login.xaml.g.cs
+D:\Pradeep\Xamarn-Projects\SSS\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\Screens\Picking.xaml.g.cs
+D:\Pradeep\Xamarn-Projects\SSS\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\Screens\Printer.xaml.g.cs
+D:\Pradeep\Xamarn-Projects\KBT\Kubota\kWMS\kWMS\bin\Debug\netstandard2.0\kWMS.deps.json
+D:\Pradeep\Xamarn-Projects\KBT\Kubota\kWMS\kWMS\bin\Debug\netstandard2.0\kWMS.dll
+D:\Pradeep\Xamarn-Projects\KBT\Kubota\kWMS\kWMS\bin\Debug\netstandard2.0\ref\kWMS.dll
+D:\Pradeep\Xamarn-Projects\KBT\Kubota\kWMS\kWMS\bin\Debug\netstandard2.0\kWMS.pdb
+D:\Pradeep\Xamarn-Projects\KBT\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\kWMS.csproj.AssemblyReference.cache
+D:\Pradeep\Xamarn-Projects\KBT\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\kWMS.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pradeep\Xamarn-Projects\KBT\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Pradeep\Xamarn-Projects\KBT\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\Screens\Binning.xaml.g.cs
+D:\Pradeep\Xamarn-Projects\KBT\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\Screens\DashBoard.xaml.g.cs
+D:\Pradeep\Xamarn-Projects\KBT\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\Screens\Dispatch.xaml.g.cs
+D:\Pradeep\Xamarn-Projects\KBT\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\Screens\Login.xaml.g.cs
+D:\Pradeep\Xamarn-Projects\KBT\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\Screens\Picking.xaml.g.cs
+D:\Pradeep\Xamarn-Projects\KBT\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\Screens\Printer.xaml.g.cs
+D:\Pradeep\Xamarn-Projects\KBT\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\kWMS.AssemblyInfoInputs.cache
+D:\Pradeep\Xamarn-Projects\KBT\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\kWMS.AssemblyInfo.cs
+D:\Pradeep\Xamarn-Projects\KBT\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\kWMS.csproj.CoreCompileInputs.cache
+D:\Pradeep\Xamarn-Projects\KBT\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Pradeep\Xamarn-Projects\KBT\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\kWMS.dll
+D:\Pradeep\Xamarn-Projects\KBT\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\refint\kWMS.dll
+D:\Pradeep\Xamarn-Projects\KBT\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\kWMS.pdb
+D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS\bin\Debug\netstandard2.0\kWMS.deps.json
+D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS\bin\Debug\netstandard2.0\kWMS.dll
+D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS\bin\Debug\netstandard2.0\ref\kWMS.dll
+D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS\bin\Debug\netstandard2.0\kWMS.pdb
+D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\kWMS.csproj.AssemblyReference.cache
+D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\kWMS.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\Screens\Binning.xaml.g.cs
+D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\Screens\DashBoard.xaml.g.cs
+D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\Screens\Dispatch.xaml.g.cs
+D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\Screens\Login.xaml.g.cs
+D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\Screens\Picking.xaml.g.cs
+D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\Screens\Printer.xaml.g.cs
+D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\kWMS.AssemblyInfoInputs.cache
+D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\kWMS.AssemblyInfo.cs
+D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\kWMS.csproj.CoreCompileInputs.cache
+D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\kWMS.dll
+D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\refint\kWMS.dll
+D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\kWMS.pdb

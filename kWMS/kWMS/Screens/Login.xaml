@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:effects="clr-namespace:kWMS.Effects"
+             x:Class="kWMS.Screens.Login">
+    <ContentPage.Content>
+
+        <ScrollView Orientation="Vertical">
+
+            <AbsoluteLayout>
+                <ActivityIndicator x:Name="Loader" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Margin="130,150"></ActivityIndicator>
+                <Label Text="Welcome To" Margin="15,15,0,0" TextColor="black" FontSize="20"></Label>
+                <Image Source="kubota.png" HeightRequest="130" WidthRequest="130" Margin="22,5,0,0" >
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="5" ></TapGestureRecognizer>
+                    </Image.GestureRecognizers>
+                </Image>
+                <Label Text="Sign To Continue" TextColor="Black" Margin="15,100,0,0" FontSize="15"></Label>
+
+                <!---Username entry -->
+                <Label Text="UserName" WidthRequest="100" HeightRequest="25" BackgroundColor="Transparent" Margin="20,150,0,0" TextColor="Black" FontSize="12"></Label>
+                <!--<Button  BorderWidth="1" BackgroundColor="Transparent" x:Name="btn1" Clicked="btn1_Clicked"  BorderColor="LightSeaGreen" WidthRequest="291.5" HeightRequest="41.5" Margin="15,170,0,0"></Button>-->
+                <Frame BorderColor="LightSeaGreen"  BackgroundColor="Transparent" WidthRequest="251.5" HeightRequest="6" Margin="15,170,0,0"/>
+                <Entry Placeholder="UserName" x:Name="usernametxt"  Completed="usernametxt_Completed" FontSize="14"  HeightRequest="40" WidthRequest="240" BackgroundColor="Transparent" Margin="65,172,0,0">
+                    <Entry.Effects>
+                        <effects:PlainEntry/>
+                    </Entry.Effects>
+                </Entry>
+                <Image Source="emailLSG.png" HeightRequest="20" WidthRequest="20"   Margin="30,182,0,0"></Image>
+
+                <!--Password enrty-->
+                <Label Text="Password" WidthRequest="100" HeightRequest="25" BackgroundColor="Transparent" Margin="20,220 ,0,0" TextColor="Black" FontSize="12"></Label>
+                <!--<Button  BorderWidth="1" BackgroundColor="Transparent" x:Name="btn2" Clicked="btn2_Clicked"  BorderColor="LightSeaGreen" WidthRequest="290" HeightRequest="40" Margin="15,240,0,0"></Button>-->
+                <Frame BorderColor="LightSeaGreen"  BackgroundColor="Transparent" WidthRequest="251.5" HeightRequest="6" Margin="15,237,0,0"/>
+                <Entry Placeholder="Password" x:Name="passwordEntrytxt" Completed="signinbutton_Clicked" IsPassword="True" FontSize="14" HeightRequest="38" WidthRequest="210" BackgroundColor="Transparent"  Margin="65,240.5,0,0">
+                    <Entry.Effects>
+                        <effects:PlainEntry/>
+                    </Entry.Effects>
+                </Entry>
+                <Image Source="unlockLSG.png" WidthRequest="20" HeightRequest="20" Margin="30,250,0,0"></Image>
+
+                <!--password hide show button-->
+                <ImageButton x:Name="viewbutton" Clicked="viewbutton_Clicked" Source="view.png" HeightRequest="18" WidthRequest="18" Margin="275,250,0,0" IsVisible="true"></ImageButton>
+
+                <!--Sing in button-->
+                <Button Text="SIGN IN" x:Name="signinbutton" HorizontalOptions="Center" FontSize="13" VerticalOptions="Center" Clicked="signinbutton_Clicked" HeightRequest="35" WidthRequest="290" TextColor="White" BackgroundColor="LightSeaGreen" Margin="15,290,0,0"></Button>
+
+                <!--Txt Labels-->
+                <Label Text="Forgot Password?" FontSize="12" TextColor="LightSeaGreen" FontAttributes="Bold" Margin="210,330,0,0"></Label>
+
+
+                <Label Text="Sign In With Phone Number" Margin="15,330,0,0" TextColor="LightSeaGreen" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" FontSize="12"></Label>
+                <Label Text="By logging in you agree to the Terms of service and Privacy policy" WidthRequest="200" HeightRequest="40" FontSize="12" TextColor="Black" Margin="70,380,0,0"></Label>
+
+                <Label Text="" x:Name="lblCompanyname" FontSize="12" Margin="66,430,0,0" ></Label>
+                <!--Dummy Dont Delete-->
+                <Label Text="Power by team Liftes_IT (c)2023" FontSize="12" IsVisible="false" TextColor="Gray" Margin="63,500,0,0"></Label>
+
+
+            </AbsoluteLayout>
+
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

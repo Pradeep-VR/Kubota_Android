@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:effects="clr-namespace:kWMS.Effects"
+             xmlns:Picker="clr-namespace:kWMS.Effects"
+             x:Class="kWMS.Screens.Binning">
+
+    <ScrollView Orientation="Vertical">
+        <StackLayout>
+            <RelativeLayout >
+                <!--Direct Binning checkbox-->
+                <CheckBox x:Name="chkbinng" CheckedChanged="CheckBox_CheckedChanged"   IsChecked="False" Color="White" WidthRequest="150" HeightRequest="35" BackgroundColor="LightSeaGreen" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Margin="15,5,0,0"></CheckBox>
+                <Label Text="DIRECT BINNING" WidthRequest="120" HeightRequest="35" FontSize="12" BackgroundColor="Transparent" FontAttributes="Bold" TextColor="WhiteSmoke" Margin="50,15,0,0"/>
+                <!--Pending binning button-->
+                <Button Text="Pending Binning" x:Name="btnpending" Clicked="btnpending_Clicked"  WidthRequest="140" HeightRequest="35" BackgroundColor="LightSeaGreen" FontAttributes="Bold" FontSize="12" TextColor="WhiteSmoke" Margin="170,5,0,0" ></Button>
+            </RelativeLayout>
+            <Grid Padding="0,-80,0,0">
+                <!--Panel 1-->
+                <RelativeLayout x:Name="panel1" IsVisible="true">
+
+                    <Label Text="Invoice Number" TextColor="Black" FontSize="12" BackgroundColor="Transparent" Margin="15,80,0,0" ></Label>
+                    <!--Invoice number-->
+                    <Button BackgroundColor="Transparent" BorderColor="#188a84" BorderWidth="1" WidthRequest="170" HeightRequest="35" Margin="105,70.5,0,0" ></Button>
+                    <Entry x:Name="txtinvocenumber" Completed="txtinvocenumber_Completed" FontSize="11" FontAttributes="Bold" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="Black"  Margin="106.5,72,0,0" WidthRequest="167" HeightRequest="32" BackgroundColor="#ebecf0" IsEnabled="True">
+                        <Entry.Effects>
+                            <effects:PlainEntry/>
+                        </Entry.Effects>
+                    </Entry>
+                    <!--btn to run some functions-->
+                    <Image Margin="275,72,0,0" x:Name="Pic_Invoiceok" IsVisible="false" Source="Pic_Invoiceok.png" WidthRequest="35" HeightRequest="35"></Image>
+
+                    <!--qutitylength-->
+                    <Label Text="Quantity Length" TextColor="Black" FontSize="Caption" BackgroundColor="Transparent" Margin="15,125,0,0"></Label>
+                    <Label Text="" x:Name="txtqtylen" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="Black" Margin="105,115,0,0" WidthRequest="205" HeightRequest="35" BackgroundColor="#ebecf0"></Label>
+                    <Button BackgroundColor="Transparent" BorderColor="#188a84" BorderWidth="1" WidthRequest="205" HeightRequest="35" Margin="105,115,0,0"></Button>
+
+                    <!--scan carton lable-->
+                    <Label Text="Scan Carton" TextColor="Black" FontSize="Caption" BackgroundColor="Transparent" Margin="15,170,0,0" ></Label>
+
+                    <Button BackgroundColor="Transparent" BorderColor="#188a84" BorderWidth="1" WidthRequest="205" HeightRequest="35" Margin="106,160,0,0"></Button>
+                    <Entry Text="" x:Name="txtcart" FontSize="10" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="Black"  Margin="107,161,0,0" WidthRequest="202" HeightRequest="32" BackgroundColor="#ebecf0" IsVisible="False">
+                        <Entry.Effects>
+                            <effects:PlainEntry/>
+                        </Entry.Effects>
+                    </Entry>
+                    <!--scan qr code-->
+                    <Label Text="Scan QR Code" TextColor="Black" FontSize="Caption" BackgroundColor="Transparent" Margin="15,215,0,0"></Label>
+
+                    <Button BackgroundColor="Transparent" WidthRequest="205" HeightRequest="35" Margin="106,205,0,0" BorderWidth="1" BorderColor="#188a84"></Button>
+                    <Entry Text="" x:Name="txt2DBarcode"  HorizontalTextAlignment="Center" Completed="txt2DBarcode_Completed" VerticalTextAlignment="Center" BackgroundColor="Transparent" WidthRequest="175" HeightRequest="32" TextColor="Black" FontSize="10" Margin="107,206,0,0">
+                        <Entry.Effects>
+                            <effects:PlainEntry/>
+                        </Entry.Effects>
+                    </Entry>
+
+                    <!--<ImageButton Source="Camera.png" IsVisible="False" x:Name="Scanqrcodeimagebutton" Clicked="Scanqrcodeimagebutton_Clicked"  WidthRequest="25" HeightRequest="25" BackgroundColor="Transparent" Margin="280,209,0,0"></ImageButton>-->
+
+                    <!--part number name lable and lable-->
+                    <Label Text="Part Number" TextColor="Black" FontSize="Caption" BackgroundColor="Transparent" Margin="15,260,0,0"></Label>
+                    <Label Text="" x:Name="txtPartNo" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="Black" Margin="106,250,0,0" WidthRequest="205" HeightRequest="35" BackgroundColor="#ebecf0"></Label>
+                    <Button  Margin="106,250,0,0" WidthRequest="205" HeightRequest="35" BackgroundColor="Transparent" BorderWidth="1" BorderColor="#188a84"></Button>
+
+                    <!-- quantity name lable and lable -->
+                    <Label Text="Quantity" TextColor="Black" FontSize="Caption" BackgroundColor="Transparent" Margin="15,300,0,0"></Label>
+                    <Button  Margin="105,293,0,0" x:Name="qtyFocbtn" Clicked="qtyFocbtn_Clicked"  WidthRequest="70" HeightRequest="35" BackgroundColor="Transparent" BorderWidth="1" BorderColor="#188a84"></Button>
+                    <Entry Text="" x:Name="txtQty" Completed="txtQty_Completed" MaxLength="3" FontSize="10" Keyboard="Numeric" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="Black" Margin="106.5,293.5,0,0" WidthRequest="68" HeightRequest="33" BackgroundColor="#ebecf0"></Entry>
+                    <!-- -->
+
+                    <!--balance name lable and lable -->
+                    <Label Text="Bal Qty" TextColor="Black" FontSize="Caption" BackgroundColor="Transparent" Margin="180,300,0,0"></Label>
+                    <Label Text="" x:Name="txt_bal_Qty" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="Black" Margin="220,293,0,0" WidthRequest="90" HeightRequest="35" BackgroundColor="#ebecf0"></Label>
+                    <Button  Margin="220,293,0,0" WidthRequest="90" HeightRequest="35" BackgroundColor="Transparent" BorderWidth="1" BorderColor="#188a84"></Button>
+
+                    <!--Bin location name lable and lable -->
+                    <Label Text="Bin Loc" TextColor="Black" FontSize="Caption" BackgroundColor="Transparent" Margin="15,350,0,0"></Label>
+                    <Label Text="" x:Name="txtBinLoc" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="Black" Margin="106,340,0,0" WidthRequest="205" HeightRequest="35" BackgroundColor="#ebecf0"></Label>
+                    <Button BackgroundColor="Transparent" BorderColor="#188a84" BorderWidth="1" Margin="106,340,0,0" WidthRequest="205" HeightRequest="35"></Button>
+
+                    <!--Buffer check box-->
+                    <CheckBox IsChecked="False" Color="#188a84" WidthRequest="30" HeightRequest="30" BackgroundColor="Transparent" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Margin="45,390,0,0" x:Name="radioButton1"></CheckBox>
+
+                    <!--Buffer name labke and lable -->
+                    <Label Text="Buffer" TextColor="Black" FontSize="Caption" BackgroundColor="Transparent" Margin="15,396,0,0"></Label>
+                    <Label Text="" x:Name="textBox1" TextColor="Black" Margin="106,385,0,0" WidthRequest="205" HeightRequest="35" BackgroundColor="#ebecf0"></Label>
+                    <Button  Margin="106,385,0,0" WidthRequest="205" HeightRequest="35" BackgroundColor="Transparent" BorderWidth="1" BorderColor="#188a84"></Button>
+
+                    <!--scan bin location name  lable and lable Clicked="scanbinlocbutton_Clicked" -->
+                    <Label Text="Scan Bin Location" TextColor="Black" FontSize="12" BackgroundColor="Transparent" Margin="11,440,0,0"></Label>
+                    <Button BackgroundColor="Transparent" WidthRequest="205" HeightRequest="35" Margin="106,430,0,0" BorderWidth="1" BorderColor="#188a84"></Button>
+                    <Entry Text="" x:Name="txtSBinLoc" Completed="txtSBinLoc_Completed" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" BackgroundColor="Transparent" WidthRequest="175" HeightRequest="32" TextColor="Black" FontSize="10" Margin="107,430,0,0">
+                        <Entry.Effects>
+                            <effects:PlainEntry/>
+                        </Entry.Effects>
+                    </Entry>
+                    <!--<ImageButton Source="Camera.png" x:Name="scanbinlocbutton" IsVisible="False"   WidthRequest="25" HeightRequest="25" BackgroundColor="Transparent" Margin="280,435,0,0"></ImageButton>-->
+
+                    <!--total name lable and lable -->
+                    <Label x:Name="lblstatusmessage" WidthRequest="170" HeightRequest="45" BackgroundColor="Transparent" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontAttributes="Bold" FontSize="11" Margin="16,471.3,0,0"></Label>
+
+                    <!--total name and lable -->
+                    <Label Text="Total      :"  TextColor="Black" FontSize="Caption" BackgroundColor="Transparent" Margin="190,492,0,0"></Label>
+                    <Label Text="" TextColor="Black"  FontSize="13" x:Name="lbltotqty" BackgroundColor="Transparent" Margin="240,492,0,0"></Label>
+
+                    <!--balance name and lable -->
+                    <Label Text="Balance:" TextColor="Black" FontSize="Caption" BackgroundColor="Transparent" Margin="190,475,0,0"></Label>
+                    <!--Showing data-->
+                    <Label Text="" TextColor="Black" FontSize="13"  x:Name="lblbalqty"  BackgroundColor="Transparent" Margin="240,475,0,0"></Label>
+                    <Button BackgroundColor="Transparent" WidthRequest="295" HeightRequest="45" Margin="15,470,0,0" BorderWidth="1" BorderColor="#188a84"></Button>
+
+                    <!-- Button -->
+                    <!-- <Button Text="SUBMIT" x:Name="submitbutton" Clicked="submitbutton_Clicked" TextColor="White" CornerRadius="7" FontSize="15" FontAttributes="Bold" WidthRequest="90" HeightRequest="40" BackgroundColor="LightSeaGreen" Margin="30,720,0,0"></Button>-->
+
+                    <Button Text="Clear" x:Name="button1" Clicked="button1_Click"   TextColor="White" FontSize="12" FontAttributes="Bold" WidthRequest="90" CornerRadius="7" HeightRequest="40" BackgroundColor="LightSeaGreen" Margin="60,530,0,0"></Button>
+                    <Button Text="Back" x:Name="btnExit" Clicked="btnExit_Clicked"  TextColor="White" FontSize="12" FontAttributes="Bold" WidthRequest="90" CornerRadius="7" HeightRequest="40" BackgroundColor="LightSeaGreen" Margin="190,530,0,0"></Button>
+
+                    <!--Hidden Lable-->
+                    <Label Text="" x:Name="txt_old_partno" WidthRequest="90" IsVisible="false" HeightRequest="40" Margin="25,550,0,0" BackgroundColor="LightGray"></Label>
+                    <Label Text="" x:Name="cmbGRNNos" IsVisible="false" WidthRequest="90" HeightRequest="20" Margin="55,550,0,0" BackgroundColor="LightBlue"></Label>
+                    <Label Text="" x:Name="scaned_bin_loc" IsVisible="false" ></Label>
+                    <!--not in use-->
+                    <Label Text="" x:Name="bbqty" IsVisible="false"/>
+                    <Label Text="" x:Name="lbllen" TextColor="Black" FontSize="13" IsVisible="false" WidthRequest="90" HeightRequest="40" BackgroundColor="Transparent" Margin="160,0,0,0"></Label>
+
+                </RelativeLayout>
+
+            </Grid>
+            <!--panel 2-->
+            <RelativeLayout x:Name="panel2"  IsVisible="false">
+
+                <!--Select invoice and picker-->
+                <Label Text="Select Invoice" x:Name="label14" TextColor="Black" FontSize="15" BackgroundColor="Transparent" Margin="10,40,0,0" ></Label>
+                <Button BackgroundColor="Transparent" BorderColor="#188a84" BorderWidth="1" WidthRequest="290" HeightRequest="45" Margin="10,60,0,0" ></Button>
+                <Picker  x:Name="cmbinv" SelectedIndexChanged="cmbinv_SelectedIndexChanged" Title="Select Invoice"  TextColor="Black"  Margin="11,65,0,0" WidthRequest="290" HeightRequest="40" BackgroundColor="Transparent" >
+                    <Picker.Effects>
+                        <Picker:PlainEntry/>
+                    </Picker.Effects>
+                </Picker>
+
+                <!--Table values-->
+                <Button BackgroundColor="Transparent" BorderColor="#188a84" BorderWidth="1.5" WidthRequest="293" HeightRequest="201" Margin="10,120,0,0" ></Button>
+                <ListView x:Name="lstundprd" Margin="11.5,121,0,0" WidthRequest="290" HeightRequest="197" BackgroundColor="LightGray">
+                    <ListView.Header>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="90" />
+                                <ColumnDefinition Width="90" />
+                                <ColumnDefinition Width="40" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Label Grid.Column="0" Text="PartNo" TextColor="White" HeightRequest="25" FontSize="12" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" BackgroundColor="LightSeaGreen" />
+                            <Label Grid.Column="1" Text="PartName" TextColor="White" HeightRequest="25" FontSize="12" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" BackgroundColor="LightSeaGreen" />
+                            <Label Grid.Column="2" Text="Qty" TextColor="White" HeightRequest="25" FontSize="12" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" BackgroundColor="LightSeaGreen" />
+                            <Label Grid.Column="3" Text="Bal_Qty" TextColor="White" HeightRequest="25" FontSize="12" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" BackgroundColor="LightSeaGreen" />
+                        </Grid>
+                    </ListView.Header>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="90"/>
+                                        <ColumnDefinition Width="90"/>
+                                        <ColumnDefinition Width="40"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Label Grid.Column="0" Text="{Binding PartNo}" HeightRequest="30" FontSize="12" TextColor="Black"/>
+                                    <Label Grid.Column="1" Text="{Binding PartName}"  HeightRequest="30" FontSize="10" TextColor="Black" />
+                                    <Label Grid.Column="2" Text="{Binding Qty}"  HeightRequest="30" FontSize="12" TextColor="Black"/>
+                                    <Label Grid.Column="3" Text="{Binding Bal_Qty}" HeightRequest="30" FontSize="12" TextColor="Black" />
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </RelativeLayout>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
