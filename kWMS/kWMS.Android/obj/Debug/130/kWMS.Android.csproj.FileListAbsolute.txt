@@ -1361,6 +1361,7 @@ D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\1
 D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\R.txt
 D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\R.cs.flag
 D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\kWMS.Android.csproj.CoreCompileInputs.cache
+D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\kWMS.And.C38D80F3.Up2Date
 D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\kWMS.Android.dll
 D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\kWMS.Android.pdb
 D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\android\bin\com.teamliftss.kWMS.apk
@@ -1987,4 +1988,3 @@ D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\stam
 D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\stamp\_GenerateJavaStubs.stamp
 D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
-D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\kWMS.And.C38D80F3.Up2Date

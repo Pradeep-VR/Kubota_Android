@@ -54,6 +54,7 @@ D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\S
 D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\kWMS.AssemblyInfoInputs.cache
 D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\kWMS.AssemblyInfo.cs
 D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\kWMS.csproj.CoreCompileInputs.cache
+D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\kWMS.sourcelink.json
 D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\XamlC.stamp
 D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\kWMS.dll
 D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS\obj\Debug\netstandard2.0\refint\kWMS.dll

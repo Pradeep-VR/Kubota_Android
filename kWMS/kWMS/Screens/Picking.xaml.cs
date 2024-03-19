@@ -19,9 +19,7 @@ namespace kWMS.Screens
         public Picking()
         {
             InitializeComponent();
-
             Frm_Picking_Load();
-
 
         }
 
