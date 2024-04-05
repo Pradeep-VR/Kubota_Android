@@ -918,7 +918,7 @@ namespace kWMS.Screens
                             {
                                 if (Txt_Fnl_Dealer_Code.Text.TrimEnd() == de.TrimEnd())
                                 {
-                                    if ((Lst_Box_Invoice_No.ItemsSource.ToString() == txt_Master_Invoice.Text.TrimEnd()) == false)
+                                    if (Lst_Box_Invoice_No.ItemsSource != txt_Master_Invoice.Text.Trim())
                                     {
                                         if (invoicedata.Contains(txt_Master_Invoice.Text) == false)
                                         {
@@ -1037,7 +1037,7 @@ namespace kWMS.Screens
             txt_Master_Invoice.SelectionLength = txt_Master_Invoice.MaxLength;
             txt_Master_Invoice.Focus();
         }
-        private void txt_scan_Qr_Completed(object sender, EventArgs e)
+        private async void txt_scan_Qr_Completed(object sender, EventArgs e)
         {
             var lst1 = lst_Fnl_Grp_No.ItemsSource as IList;
             try
@@ -1069,8 +1069,7 @@ namespace kWMS.Screens
                         }
                         else
                         {
-                            DisplayAlert("Alert", err, "OK");
-
+                            await DisplayAlert("Alert", err, "OK");
                             txt_scan_Qr.Text = string.Empty;
                             txt_scan_Qr.Focus();
 
@@ -1084,13 +1083,13 @@ namespace kWMS.Screens
                 }
                 else
                 {
-                    DisplayAlert("Alert", "Scan Box Barcode", "OK");
+                    await DisplayAlert("Alert", "Scan Box Barcode", "OK");
                     txt_scan_Qr.Focus();
                 }
             }
             catch (Exception ex)
             {
-                DisplayAlert("Alert", ex.Message, "OK");
+                await DisplayAlert("Alert", ex.Message, "OK");
             }
 
 

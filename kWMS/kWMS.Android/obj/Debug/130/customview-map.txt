@@ -1,50 +1,50 @@
-@string/appbar_scrolling_view_behavior;D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\layout\rootlayout.xml
+@string/appbar_scrolling_view_behavior;D:\Pradeep\Kubota_Live\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\layout\rootlayout.xml
 adaptive-icon;obj\Debug\130\res\mipmap-anydpi-v26\icon.xml
 adaptive-icon;obj\Debug\130\res\mipmap-anydpi-v26\icon_round.xml
-alpha;D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\anim\enterfromleft.xml
-alpha;D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\anim\exittoleft.xml
-androidx.appcompat.widget.Toolbar;D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\layout\fallbacktoolbardonotuse.xml
-androidx.appcompat.widget.Toolbar;D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\layout\rootlayout.xml
-androidx.appcompat.widget.Toolbar;D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\layout\shellcontent.xml
-androidx.appcompat.widget.Toolbar;D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\layout\toolbar.xml
-androidx.coordinatorlayout.widget.CoordinatorLayout;D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\layout\rootlayout.xml
-androidx.coordinatorlayout.widget.CoordinatorLayout;D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\layout\shellcontent.xml
-attr;D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\values\attrs.xml
+alpha;D:\Pradeep\Kubota_Live\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\anim\enterfromleft.xml
+alpha;D:\Pradeep\Kubota_Live\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\anim\exittoleft.xml
+androidx.appcompat.widget.Toolbar;D:\Pradeep\Kubota_Live\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\layout\fallbacktoolbardonotuse.xml
+androidx.appcompat.widget.Toolbar;D:\Pradeep\Kubota_Live\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\layout\rootlayout.xml
+androidx.appcompat.widget.Toolbar;D:\Pradeep\Kubota_Live\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\layout\shellcontent.xml
+androidx.appcompat.widget.Toolbar;D:\Pradeep\Kubota_Live\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\layout\toolbar.xml
+androidx.coordinatorlayout.widget.CoordinatorLayout;D:\Pradeep\Kubota_Live\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\layout\rootlayout.xml
+androidx.coordinatorlayout.widget.CoordinatorLayout;D:\Pradeep\Kubota_Live\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\layout\shellcontent.xml
+attr;D:\Pradeep\Kubota_Live\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\values\attrs.xml
 background;obj\Debug\130\res\mipmap-anydpi-v26\icon.xml
 background;obj\Debug\130\res\mipmap-anydpi-v26\icon_round.xml
-cache-path;D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\54\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+cache-path;D:\Pradeep\Kubota_Live\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\54\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 color;obj\Debug\130\res\values\colors.xml
-com.google.android.material.appbar.AppBarLayout;D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\layout\flyoutcontent.xml
-com.google.android.material.appbar.AppBarLayout;D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\layout\rootlayout.xml
-com.google.android.material.appbar.AppBarLayout;D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\layout\shellcontent.xml
-com.google.android.material.bottomnavigation.BottomNavigationView;D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\layout\bottomtablayout.xml
-com.google.android.material.tabs.TabLayout;D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\layout\fallbacktabbardonotuse.xml
-com.google.android.material.tabs.TabLayout;D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\layout\rootlayout.xml
-com.google.android.material.tabs.TabLayout;D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\layout\tabbar.xml
-declare-styleable;D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\values\attrs.xml
-external-cache-path;D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\54\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
-external-path;D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\54\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+com.google.android.material.appbar.AppBarLayout;D:\Pradeep\Kubota_Live\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\layout\flyoutcontent.xml
+com.google.android.material.appbar.AppBarLayout;D:\Pradeep\Kubota_Live\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\layout\rootlayout.xml
+com.google.android.material.appbar.AppBarLayout;D:\Pradeep\Kubota_Live\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\layout\shellcontent.xml
+com.google.android.material.bottomnavigation.BottomNavigationView;D:\Pradeep\Kubota_Live\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\layout\bottomtablayout.xml
+com.google.android.material.tabs.TabLayout;D:\Pradeep\Kubota_Live\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\layout\fallbacktabbardonotuse.xml
+com.google.android.material.tabs.TabLayout;D:\Pradeep\Kubota_Live\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\layout\rootlayout.xml
+com.google.android.material.tabs.TabLayout;D:\Pradeep\Kubota_Live\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\layout\tabbar.xml
+declare-styleable;D:\Pradeep\Kubota_Live\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\values\attrs.xml
+external-cache-path;D:\Pradeep\Kubota_Live\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\54\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-path;D:\Pradeep\Kubota_Live\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\54\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 foreground;obj\Debug\130\res\mipmap-anydpi-v26\icon.xml
 foreground;obj\Debug\130\res\mipmap-anydpi-v26\icon_round.xml
-FrameLayout;D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\layout\bottomtablayout.xml
-item;D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\values\styles.xml
-LinearLayout;D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\layout\bottomtablayout.xml
-paths;D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\54\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
-resources;D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\values\attrs.xml
-resources;D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\values\strings.xml
-resources;D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\values\styles.xml
+FrameLayout;D:\Pradeep\Kubota_Live\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\layout\bottomtablayout.xml
+item;D:\Pradeep\Kubota_Live\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\values\styles.xml
+LinearLayout;D:\Pradeep\Kubota_Live\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\layout\bottomtablayout.xml
+paths;D:\Pradeep\Kubota_Live\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\54\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+resources;D:\Pradeep\Kubota_Live\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\values\attrs.xml
+resources;D:\Pradeep\Kubota_Live\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\values\strings.xml
+resources;D:\Pradeep\Kubota_Live\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\values\styles.xml
 resources;obj\Debug\130\res\values\colors.xml
 resources;obj\Debug\130\res\values\styles.xml
-set;D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\anim\enterfromleft.xml
-set;D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\anim\enterfromright.xml
-set;D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\anim\exittoleft.xml
-set;D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\anim\exittoright.xml
-string;D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\values\strings.xml
-style;D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\values\styles.xml
+set;D:\Pradeep\Kubota_Live\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\anim\enterfromleft.xml
+set;D:\Pradeep\Kubota_Live\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\anim\enterfromright.xml
+set;D:\Pradeep\Kubota_Live\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\anim\exittoleft.xml
+set;D:\Pradeep\Kubota_Live\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\anim\exittoright.xml
+string;D:\Pradeep\Kubota_Live\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\values\strings.xml
+style;D:\Pradeep\Kubota_Live\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\values\styles.xml
 style;obj\Debug\130\res\values\styles.xml
-translate;D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\anim\enterfromleft.xml
-translate;D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\anim\enterfromright.xml
-translate;D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\anim\exittoleft.xml
-translate;D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\anim\exittoright.xml
-xamarin.forms.platform.android.appcompat.FormsViewPager;D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\layout\rootlayout.xml
-xamarin.forms.platform.android.ShellFlyoutLayout;D:\Kubota_Lts\Latest-2024\upto V-5-3\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\layout\flyoutcontent.xml
+translate;D:\Pradeep\Kubota_Live\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\anim\enterfromleft.xml
+translate;D:\Pradeep\Kubota_Live\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\anim\enterfromright.xml
+translate;D:\Pradeep\Kubota_Live\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\anim\exittoleft.xml
+translate;D:\Pradeep\Kubota_Live\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\anim\exittoright.xml
+xamarin.forms.platform.android.appcompat.FormsViewPager;D:\Pradeep\Kubota_Live\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\layout\rootlayout.xml
+xamarin.forms.platform.android.ShellFlyoutLayout;D:\Pradeep\Kubota_Live\Kubota\kWMS\kWMS.Android\obj\Debug\130\lp\55\jl\res\layout\flyoutcontent.xml

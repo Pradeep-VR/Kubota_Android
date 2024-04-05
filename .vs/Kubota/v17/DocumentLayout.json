@@ -3,32 +3,40 @@
   "WorkspaceRootPath": "D:\\Kubota_Lts\\Latest-2024\\upto V-5-3\\Kubota\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDB9AFFF-0547-45E7-A140-A16E300B9443}|kWMS\\kWMS\\kWMS.csproj|d:\\kubota_lts\\latest-2024\\upto v-5-3\\kubota\\kwms\\kwms\\screens\\picking.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDB9AFFF-0547-45E7-A140-A16E300B9443}|kWMS\\kWMS\\kWMS.csproj|solutionrelative:kwms\\kwms\\screens\\picking.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDB9AFFF-0547-45E7-A140-A16E300B9443}|kWMS\\kWMS\\kWMS.csproj|d:\\kubota_lts\\latest-2024\\upto v-5-3\\kubota\\kwms\\kwms\\screens\\login.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{DDB9AFFF-0547-45E7-A140-A16E300B9443}|kWMS\\kWMS\\kWMS.csproj|solutionrelative:kwms\\kwms\\screens\\login.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDB9AFFF-0547-45E7-A140-A16E300B9443}|kWMS\\kWMS\\kWMS.csproj|d:\\kubota_lts\\latest-2024\\upto v-5-3\\kubota\\kwms\\kwms\\screens\\binning.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDB9AFFF-0547-45E7-A140-A16E300B9443}|kWMS\\kWMS\\kWMS.csproj|solutionrelative:kwms\\kwms\\screens\\binning.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDB9AFFF-0547-45E7-A140-A16E300B9443}|kWMS\\kWMS\\kWMS.csproj|d:\\kubota_lts\\latest-2024\\upto v-5-3\\kubota\\kwms\\kwms\\services\\binningmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDB9AFFF-0547-45E7-A140-A16E300B9443}|kWMS\\kWMS\\kWMS.csproj|solutionrelative:kwms\\kwms\\services\\binningmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDB9AFFF-0547-45E7-A140-A16E300B9443}|kWMS\\kWMS\\kWMS.csproj|d:\\kubota_lts\\latest-2024\\upto v-5-3\\kubota\\kwms\\kwms\\extras\\clsconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDB9AFFF-0547-45E7-A140-A16E300B9443}|kWMS\\kWMS\\kWMS.csproj|solutionrelative:kwms\\kwms\\extras\\clsconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDB9AFFF-0547-45E7-A140-A16E300B9443}|kWMS\\kWMS\\kWMS.csproj|d:\\kubota_lts\\latest-2024\\upto v-5-3\\kubota\\kwms\\kwms\\screens\\binning.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
       "RelativeMoniker": "D:0:0:{DDB9AFFF-0547-45E7-A140-A16E300B9443}|kWMS\\kWMS\\kWMS.csproj|solutionrelative:kwms\\kwms\\screens\\binning.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDB9AFFF-0547-45E7-A140-A16E300B9443}|kWMS\\kWMS\\kWMS.csproj|d:\\kubota_lts\\latest-2024\\upto v-5-3\\kubota\\kwms\\kwms\\extras\\executer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDB9AFFF-0547-45E7-A140-A16E300B9443}|kWMS\\kWMS\\kWMS.csproj|solutionrelative:kwms\\kwms\\extras\\executer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDB9AFFF-0547-45E7-A140-A16E300B9443}|kWMS\\kWMS\\kWMS.csproj|d:\\kubota_lts\\latest-2024\\upto v-5-3\\kubota\\kwms\\kwms\\screens\\binning.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDB9AFFF-0547-45E7-A140-A16E300B9443}|kWMS\\kWMS\\kWMS.csproj|solutionrelative:kwms\\kwms\\screens\\binning.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDB9AFFF-0547-45E7-A140-A16E300B9443}|kWMS\\kWMS\\kWMS.csproj|d:\\kubota_lts\\latest-2024\\upto v-5-3\\kubota\\kwms\\kwms\\screens\\dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDB9AFFF-0547-45E7-A140-A16E300B9443}|kWMS\\kWMS\\kWMS.csproj|solutionrelative:kwms\\kwms\\screens\\dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDB9AFFF-0547-45E7-A140-A16E300B9443}|kWMS\\kWMS\\kWMS.csproj|d:\\kubota_lts\\latest-2024\\upto v-5-3\\kubota\\kwms\\kwms\\screens\\dashboard.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{DDB9AFFF-0547-45E7-A140-A16E300B9443}|kWMS\\kWMS\\kWMS.csproj|solutionrelative:kwms\\kwms\\screens\\dashboard.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDB9AFFF-0547-45E7-A140-A16E300B9443}|kWMS\\kWMS\\kWMS.csproj|d:\\kubota_lts\\latest-2024\\upto v-5-3\\kubota\\kwms\\kwms\\services\\binningmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDB9AFFF-0547-45E7-A140-A16E300B9443}|kWMS\\kWMS\\kWMS.csproj|solutionrelative:kwms\\kwms\\services\\binningmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDB9AFFF-0547-45E7-A140-A16E300B9443}|kWMS\\kWMS\\kWMS.csproj|d:\\kubota_lts\\latest-2024\\upto v-5-3\\kubota\\kwms\\kwms\\screens\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDB9AFFF-0547-45E7-A140-A16E300B9443}|kWMS\\kWMS\\kWMS.csproj|solutionrelative:kwms\\kwms\\screens\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDB9AFFF-0547-45E7-A140-A16E300B9443}|kWMS\\kWMS\\kWMS.csproj|d:\\kubota_lts\\latest-2024\\upto v-5-3\\kubota\\kwms\\kwms\\screens\\login.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{DDB9AFFF-0547-45E7-A140-A16E300B9443}|kWMS\\kWMS\\kWMS.csproj|solutionrelative:kwms\\kwms\\screens\\login.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+      "AbsoluteMoniker": "D:0:0:{DDB9AFFF-0547-45E7-A140-A16E300B9443}|kWMS\\kWMS\\kWMS.csproj|d:\\kubota_lts\\latest-2024\\upto v-5-3\\kubota\\kwms\\kwms\\extras\\executer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDB9AFFF-0547-45E7-A140-A16E300B9443}|kWMS\\kWMS\\kWMS.csproj|solutionrelative:kwms\\kwms\\extras\\executer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,87 +55,115 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Picking.xaml.cs",
-              "DocumentMoniker": "D:\\Kubota_Lts\\Latest-2024\\upto V-5-3\\Kubota\\kWMS\\kWMS\\Screens\\Picking.xaml.cs",
-              "RelativeDocumentMoniker": "kWMS\\kWMS\\Screens\\Picking.xaml.cs",
-              "ToolTip": "D:\\Kubota_Lts\\Latest-2024\\upto V-5-3\\Kubota\\kWMS\\kWMS\\Screens\\Picking.xaml.cs",
-              "RelativeToolTip": "kWMS\\kWMS\\Screens\\Picking.xaml.cs",
-              "ViewState": "AQIAANUAAAAAAAAAAAAAAE0BAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T09:37:31.143Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Login.xaml",
               "DocumentMoniker": "D:\\Kubota_Lts\\Latest-2024\\upto V-5-3\\Kubota\\kWMS\\kWMS\\Screens\\Login.xaml",
               "RelativeDocumentMoniker": "kWMS\\kWMS\\Screens\\Login.xaml",
               "ToolTip": "D:\\Kubota_Lts\\Latest-2024\\upto V-5-3\\Kubota\\kWMS\\kWMS\\Screens\\Login.xaml",
               "RelativeToolTip": "kWMS\\kWMS\\Screens\\Login.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAApAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-08T09:53:04.917Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Login.xaml.cs",
-              "DocumentMoniker": "D:\\Kubota_Lts\\Latest-2024\\upto V-5-3\\Kubota\\kWMS\\kWMS\\Screens\\Login.xaml.cs",
-              "RelativeDocumentMoniker": "kWMS\\kWMS\\Screens\\Login.xaml.cs",
-              "ToolTip": "D:\\Kubota_Lts\\Latest-2024\\upto V-5-3\\Kubota\\kWMS\\kWMS\\Screens\\Login.xaml.cs",
-              "RelativeToolTip": "kWMS\\kWMS\\Screens\\Login.xaml.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAADAAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T09:36:07.689Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Executer.cs",
-              "DocumentMoniker": "D:\\Kubota_Lts\\Latest-2024\\upto V-5-3\\Kubota\\kWMS\\kWMS\\Extras\\Executer.cs",
-              "RelativeDocumentMoniker": "kWMS\\kWMS\\Extras\\Executer.cs",
-              "ToolTip": "D:\\Kubota_Lts\\Latest-2024\\upto V-5-3\\Kubota\\kWMS\\kWMS\\Extras\\Executer.cs",
-              "RelativeToolTip": "kWMS\\kWMS\\Extras\\Executer.cs",
-              "ViewState": "AQIAAHUBAAAAAAAAAAAnwIkBAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T09:02:43.288Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BinningManagement.cs",
-              "DocumentMoniker": "D:\\Kubota_Lts\\Latest-2024\\upto V-5-3\\Kubota\\kWMS\\kWMS\\Services\\BinningManagement.cs",
-              "RelativeDocumentMoniker": "kWMS\\kWMS\\Services\\BinningManagement.cs",
-              "ToolTip": "D:\\Kubota_Lts\\Latest-2024\\upto V-5-3\\Kubota\\kWMS\\kWMS\\Services\\BinningManagement.cs",
-              "RelativeToolTip": "kWMS\\kWMS\\Services\\BinningManagement.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAWwBoAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T08:56:59.87Z"
+              "WhenOpened": "2024-03-21T11:35:09.415Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Binning.xaml.cs",
-              "DocumentMoniker": "D:\\Kubota_Lts\\Latest-2024\\upto V-5-3\\Kubota\\kWMS\\kWMS\\Screens\\Binning.xaml.cs",
-              "RelativeDocumentMoniker": "kWMS\\kWMS\\Screens\\Binning.xaml.cs",
-              "ToolTip": "D:\\Kubota_Lts\\Latest-2024\\upto V-5-3\\Kubota\\kWMS\\kWMS\\Screens\\Binning.xaml.cs",
-              "RelativeToolTip": "kWMS\\kWMS\\Screens\\Binning.xaml.cs",
-              "ViewState": "AQIAAM8CAAAAAAAAAAAWwGsDAAA9AAAA",
+              "Title": "clsConnection.cs",
+              "DocumentMoniker": "D:\\Kubota_Lts\\Latest-2024\\upto V-5-3\\Kubota\\kWMS\\kWMS\\Extras\\clsConnection.cs",
+              "RelativeDocumentMoniker": "kWMS\\kWMS\\Extras\\clsConnection.cs",
+              "ToolTip": "D:\\Kubota_Lts\\Latest-2024\\upto V-5-3\\Kubota\\kWMS\\kWMS\\Extras\\clsConnection.cs",
+              "RelativeToolTip": "kWMS\\kWMS\\Extras\\clsConnection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T07:35:23.543Z"
+              "WhenOpened": "2024-03-21T11:26:16.339Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Binning.xaml",
               "DocumentMoniker": "D:\\Kubota_Lts\\Latest-2024\\upto V-5-3\\Kubota\\kWMS\\kWMS\\Screens\\Binning.xaml",
               "RelativeDocumentMoniker": "kWMS\\kWMS\\Screens\\Binning.xaml",
               "ToolTip": "D:\\Kubota_Lts\\Latest-2024\\upto V-5-3\\Kubota\\kWMS\\kWMS\\Screens\\Binning.xaml",
               "RelativeToolTip": "kWMS\\kWMS\\Screens\\Binning.xaml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAADAAAAB8AAAA",
+              "ViewState": "AQIAAJYAAAAAAAAAAAAAAFoAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-08T08:50:00.369Z"
+              "WhenOpened": "2024-03-20T09:37:19.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DashBoard.xaml.cs",
+              "DocumentMoniker": "D:\\Kubota_Lts\\Latest-2024\\upto V-5-3\\Kubota\\kWMS\\kWMS\\Screens\\DashBoard.xaml.cs",
+              "RelativeDocumentMoniker": "kWMS\\kWMS\\Screens\\DashBoard.xaml.cs",
+              "ToolTip": "D:\\Kubota_Lts\\Latest-2024\\upto V-5-3\\Kubota\\kWMS\\kWMS\\Screens\\DashBoard.xaml.cs",
+              "RelativeToolTip": "kWMS\\kWMS\\Screens\\DashBoard.xaml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAC0AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T06:30:32.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DashBoard.xaml",
+              "DocumentMoniker": "D:\\Kubota_Lts\\Latest-2024\\upto V-5-3\\Kubota\\kWMS\\kWMS\\Screens\\DashBoard.xaml",
+              "RelativeDocumentMoniker": "kWMS\\kWMS\\Screens\\DashBoard.xaml",
+              "ToolTip": "D:\\Kubota_Lts\\Latest-2024\\upto V-5-3\\Kubota\\kWMS\\kWMS\\Screens\\DashBoard.xaml",
+              "RelativeToolTip": "kWMS\\kWMS\\Screens\\DashBoard.xaml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAADYAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-20T06:30:31.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Executer.cs",
+              "DocumentMoniker": "D:\\Kubota_Lts\\Latest-2024\\upto V-5-3\\Kubota\\kWMS\\kWMS\\Extras\\Executer.cs",
+              "RelativeDocumentMoniker": "kWMS\\kWMS\\Extras\\Executer.cs",
+              "ToolTip": "D:\\Kubota_Lts\\Latest-2024\\upto V-5-3\\Kubota\\kWMS\\kWMS\\Extras\\Executer.cs",
+              "RelativeToolTip": "kWMS\\kWMS\\Extras\\Executer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T05:43:18.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "D:\\Kubota_Lts\\Latest-2024\\upto V-5-3\\Kubota\\kWMS\\kWMS\\Screens\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "kWMS\\kWMS\\Screens\\Login.xaml.cs",
+              "ToolTip": "D:\\Kubota_Lts\\Latest-2024\\upto V-5-3\\Kubota\\kWMS\\kWMS\\Screens\\Login.xaml.cs",
+              "RelativeToolTip": "kWMS\\kWMS\\Screens\\Login.xaml.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAD0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T05:28:04.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Binning.xaml.cs",
+              "DocumentMoniker": "D:\\Kubota_Lts\\Latest-2024\\upto V-5-3\\Kubota\\kWMS\\kWMS\\Screens\\Binning.xaml.cs",
+              "RelativeDocumentMoniker": "kWMS\\kWMS\\Screens\\Binning.xaml.cs",
+              "ToolTip": "D:\\Kubota_Lts\\Latest-2024\\upto V-5-3\\Kubota\\kWMS\\kWMS\\Screens\\Binning.xaml.cs",
+              "RelativeToolTip": "kWMS\\kWMS\\Screens\\Binning.xaml.cs",
+              "ViewState": "AQIAAPAAAAAAAAAAAAAAAD4BAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T10:17:30.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BinningManagement.cs",
+              "DocumentMoniker": "D:\\Kubota_Lts\\Latest-2024\\upto V-5-3\\Kubota\\kWMS\\kWMS\\Services\\BinningManagement.cs",
+              "RelativeDocumentMoniker": "kWMS\\kWMS\\Services\\BinningManagement.cs",
+              "ToolTip": "D:\\Kubota_Lts\\Latest-2024\\upto V-5-3\\Kubota\\kWMS\\kWMS\\Services\\BinningManagement.cs",
+              "RelativeToolTip": "kWMS\\kWMS\\Services\\BinningManagement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T10:16:12.151Z"
             }
           ]
         }

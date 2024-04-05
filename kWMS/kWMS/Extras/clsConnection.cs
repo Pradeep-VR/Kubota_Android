@@ -25,7 +25,7 @@
         //public static string sPassword = "Welcome@123";
 
         //Global_Connection String KUBOTA Main Server
-        //UN = 9171;Pass Raja@067
+        //UN = 9171;Pass Raja@068
         public static string sName = "172.20.243.139\\wms1sql";
         public static string sdbName = "KUBOTA_WMS_WIN";
         public static string sUserName = "sa";

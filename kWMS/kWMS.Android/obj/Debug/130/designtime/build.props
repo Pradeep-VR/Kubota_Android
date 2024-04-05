@@ -25,9 +25,9 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=638455044133740126
+_nugetassetstimestamp=638479129658476015
 typemapkind=strings-asm
 androidsupportedabis=armeabi-v7a
 arm64-v8a
 androidmanifestplaceholders=
-projectfullpath=d:\kubota_lts\latest-2024\upto v-5-3\kubota\kwms\kwms.android\kwms.android.csproj
+projectfullpath=d:\pradeep\kubota_live\kubota\kwms\kwms.android\kwms.android.csproj
