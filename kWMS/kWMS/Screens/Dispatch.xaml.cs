@@ -920,7 +920,7 @@ namespace kWMS.Screens
                                 {
                                     if (Lst_Box_Invoice_No.ItemsSource != txt_Master_Invoice.Text.Trim())
                                     {
-                                        if (invoicedata.Contains(txt_Master_Invoice.Text) == false)
+                                        if (invoicedata.Contains(txt_Master_Invoice.Text) == false) 
                                         {
                                             string INitems = txt_Master_Invoice.Text;
                                             invoicedata.Add(INitems);

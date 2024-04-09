@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("kWMS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0634308812cfc96a333b58c460e92c0a60c15b2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac4aae659ddcb76ea05d5497498167889457a582")]
 [assembly: System.Reflection.AssemblyProductAttribute("kWMS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("kWMS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -4636,24 +4636,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SaraVanaN\\.nuget\\packages\\": {},
+    "C:\\Users\\prade\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Pradeep\\Kubota_Live\\Kubota\\kWMS\\kWMS.Android\\kWMS.Android.csproj",
+      "projectUniqueName": "D:\\Kubota_Lts\\Latest-2024\\upto V-5-3\\Kubota_Android\\kWMS\\kWMS.Android\\kWMS.Android.csproj",
       "projectName": "kWMS.Android",
-      "projectPath": "D:\\Pradeep\\Kubota_Live\\Kubota\\kWMS\\kWMS.Android\\kWMS.Android.csproj",
-      "packagesPath": "C:\\Users\\SaraVanaN\\.nuget\\packages\\",
-      "outputPath": "D:\\Pradeep\\Kubota_Live\\Kubota\\kWMS\\kWMS.Android\\obj\\",
+      "projectPath": "D:\\Kubota_Lts\\Latest-2024\\upto V-5-3\\Kubota_Android\\kWMS\\kWMS.Android\\kWMS.Android.csproj",
+      "packagesPath": "C:\\Users\\prade\\.nuget\\packages\\",
+      "outputPath": "D:\\Kubota_Lts\\Latest-2024\\upto V-5-3\\Kubota_Android\\kWMS\\kWMS.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\SaraVanaN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\prade\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4667,11 +4667,16 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "D:\\Pradeep\\Kubota_Live\\Kubota\\kWMS\\kWMS\\kWMS.csproj": {
-              "projectPath": "D:\\Pradeep\\Kubota_Live\\Kubota\\kWMS\\kWMS\\kWMS.csproj"
+            "D:\\Kubota_Lts\\Latest-2024\\upto V-5-3\\Kubota_Android\\kWMS\\kWMS\\kWMS.csproj": {
+              "projectPath": "D:\\Kubota_Lts\\Latest-2024\\upto V-5-3\\Kubota_Android\\kWMS\\kWMS\\kWMS.csproj"
             }
           }
         }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
